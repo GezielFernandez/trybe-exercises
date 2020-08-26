@@ -1,0 +1,21 @@
+
+header {
+    padding-left: 0px;
+    background: #e63946
+        
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-left: 0px;    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    padding: 0;
+    background: #f1faee;
+}
