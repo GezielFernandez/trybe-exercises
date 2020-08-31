@@ -33,7 +33,7 @@ for(i = 0; i < n; i += 1) {
 }
 
 for(i = 1; i <= n; i += 1) {
-  let spaceAst = spaces.slice(i) + ast.slice(n - i);
+  let spaceAst = spaces.slice(i) + ast.slice(n - i);  //Why wouldn't I use slice?
   console.log(spaceAst);
 }
 
