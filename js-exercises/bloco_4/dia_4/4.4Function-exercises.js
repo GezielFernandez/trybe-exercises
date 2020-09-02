@@ -8,5 +8,5 @@ function verificaPalindromo(str) {
   }
 }
 
-console.log(verificaPalindromo('pape'));
+console.log(verificaPalindromo('pum'));
 
