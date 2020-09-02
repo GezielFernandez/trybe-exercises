@@ -13,7 +13,7 @@ verificaPalindromo(str);
 
 
 //EX. 02: Array de inteiros e retornar o índice de maior valor
-let array = [1, 4, 9, 7];
+let array = [2, 3, 6, 7, 10, 1];
 function maximus(array) {
   // console.log(Math.max.apply(Math, array));
   for(i in array) {
