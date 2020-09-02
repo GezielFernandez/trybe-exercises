@@ -36,3 +36,28 @@ function maximus(array) {
 }
 maximus(array);
 
+//Ex. 04: Retornar o nome com mais caracteres de um array.
+//... em processo
+function biggerWord(arrayOfWords) {
+  let biggerWord = words[0];
+  for(i in words) {
+    if(biggerWord.lenght < words[i].lenght) {
+      biggerWord = words[i];
+    }
+  }
+}
+
+let arrayOfWords = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+console.log(arrayOfWords[3].length);
+console.log(Math.max.apply(Math, arrayOfWords));
+
+
+let arrayOfWords = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+for(i in arrayOfWords) {
+  if(i < arrayOfWords[i].length) {
+    console.log(false);
+  } else {
+    console.log(i);
+  }
+}
+
