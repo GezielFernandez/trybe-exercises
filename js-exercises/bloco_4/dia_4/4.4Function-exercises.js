@@ -12,12 +12,24 @@ function verificaPalindromo(str) {
 verificaPalindromo(str);
 
 
-//EX. 02: Array de inteiros e retornar o índice de maior valor
+//Ex. 02: Array de inteiros e retornar o índice de maior valor
 let array = [2, 3, 6, 7, 10, 1];
 function maximus(array) {
   // console.log(Math.max.apply(Math, array));
   for(i in array) {
     if(array[i] == Math.max.apply(Math, array)) {
+      console.log(i);
+    }
+  }
+}
+maximus(array);
+
+//Ex. 03: Array de inteiros e retornar o índice de MENOR valor
+let array = [2, 4, 6, 7, 10, 0, -3];
+function maximus(array) {
+  // console.log(Math.max.apply(Math, array));
+  for(i in array) {
+    if(array[i] == Math.min.apply(Math, array)) {
       console.log(i);
     }
   }
