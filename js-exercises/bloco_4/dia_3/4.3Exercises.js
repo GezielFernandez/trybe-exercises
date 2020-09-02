@@ -41,6 +41,20 @@ for(i = 1; i <= n; i += 1) {
 // Exercício 04:
 
 
+//////////////////////////////////////////////////////////////
+// Exercício 05:
 
 
+//////////////////////////////////////////////////////////////
+// Exercício 06: Programa que avalia se o número é primo ou não
+// let xy = 5;
+// let m = [];
+// let primos = [];
+// for(i = 0; i <= xy; i += 1) {
+//   m.push(i);
+//   if(i % m[i] == 0) {
+//     primos.push(i);
+//   }
+// }
 
+// console.log(primos);
