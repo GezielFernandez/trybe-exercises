@@ -1,12 +1,26 @@
 //Ex. 01: Função que verifica se é palíndromo ou não
+let str = 'pum'
 function verificaPalindromo(str) {
   let reversed = str.split('').reverse().join('')
   if(str === reversed) {
-    return true;
+    console.log(true);
   } else {
-    return false;
+    console.log(false);
   }
 }
 
-console.log(verificaPalindromo('pum'));
+verificaPalindromo(str);
+
+
+//EX. 02: Array de inteiros e retornar o índice de maior valor
+let array = [1, 4, 9, 7];
+function maximus(array) {
+  // console.log(Math.max.apply(Math, array));
+  for(i in array) {
+    if(array[i] == Math.max.apply(Math, array)) {
+      console.log(i);
+    }
+  }
+}
+maximus(array);
 
