@@ -44,6 +44,7 @@
         - document.getElementById()
         - document.getElementsByClassName()
         - document.getElementsByTagName()*/
+
         //1. Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
         function changeText() {
           let paragraph = document.getElementsByTagName('p')[1];
@@ -70,7 +71,6 @@
           let titulo = document.getElementsByTagName('h1')[0];
           titulo.innerText = 'Exercisinho 5.1 - Javali-Scripitinho';
         }
-
         titleCorrect();
 
         // 5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
@@ -80,15 +80,15 @@
         }
         capitalTag();
 
-
         // 6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        // funcion tagP() {
-        //   let tagP = document.getElementsByTagName('p');
-        //   tagP.innerHTML;
-        // }
-
-        // tagP();
+        funcion tagP() {
+          let tagAllP = document.getElementsByTagName('p');
+          for(let i = 0; i < tagAllP.length; i += 1) {
+            console.log(tagAllP[i].innerHTML);
+          }
+        }
+        tagP();
         
-    </script>
+      </script>
   </body>
 </html>
