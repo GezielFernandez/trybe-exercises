@@ -1,14 +1,19 @@
 
 header {
     padding-left: 0px;
-    background: #e63946
-        
+    background: #e63946   
+}
+
+#soco {
+    font-size: 100px;
 }
 
 nav li {
     display: inline-block;
     margin-right: 20px;
-    padding-left: 0px;    
+    padding-left: 0px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 nav a {
