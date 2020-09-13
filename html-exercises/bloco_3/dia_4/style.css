@@ -27,6 +27,23 @@ nav ul {
     background: #b0e99d;
 }
 
+article {
+    float: left;
+    width: 69%;
+}
+
+.clasification {
+    margin: auto;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+.video {
+    float: right;
+    width: 31%;
+}
 
 footer {
     font-family: monospace;
