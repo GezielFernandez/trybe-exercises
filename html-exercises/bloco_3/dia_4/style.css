@@ -1,11 +1,13 @@
 
 header {
-    padding-left: 0px;
+    /* padding-left: 0px; */
     background: #e63946   
 }
 
-#soco {
-    font-size: 100px;
+h1 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 nav li {
@@ -22,5 +24,12 @@ nav a {
 
 nav ul {
     padding: 0;
-    background: #f1faee;
+    background: #b0e99d;
+}
+
+
+footer {
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
 }
