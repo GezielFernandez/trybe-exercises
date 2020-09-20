@@ -3,12 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-  <fieldset>
-    
+  <header class='cabecalho'>
+    <h1>Cadastro de Curriculo</h1>
+  </header>
+  <fieldset id="first-part">
+    <div class='name'>
+      <label for="name">Nome</label>
+      <input id="name" type="text" maxlength="40" required>
+    </div>
+
+    <div class="email">
+      <label for="email">E-mail</label>
+      <input type="text" name="" id="email" maxlength="50" required>
+    </div>
+    <div>
+      <label for="cpf">CPF</label>
+      <input type="text" name="" id="cpf" maxlength="11" required>
+    </div>
+    <div>
+      <label for="endereco">Endereço</label>
+      <input type="text" name="" id="endereco" maxlength="200" required>
+    </div>
+    <div>
+      <label for="cidade">Cidade</label>
+      <input type="text" id="cidade" maxlength="28" required>
+    </div>
+    <div>
+      <select>
+        <option value="1"></option>
+      </select>
+    </div>
+    <div>
+      <p>Tipo</p>
+      <input type="radio" id="casa" name="tipo" value="casa" required>
+      <label for="casa">Casa</label><br>
+      <input type="radio" id="apartamento" name="tipo" value="apartamento" required>
+      <label for="apartamento">Apartamento</label><br>
+    </div>
   </fieldset>
-  
+
+  <fieldset id="second-part">
+    <div>
+      <label for="resumo">Resumo do Curriculo</label>
+      <br>
+      <textarea id="resumo" rows='5' cols="160" maxlength="5000" required></textarea>
+    </div>
+    <div>
+      <label for="cargo">Cargo</label>
+      <input type="text" name="" id="cargo" maxlength="40" required>
+    </div>
+    <div>
+      <label for="descricao">Descrição do cargo</label>
+      <input type="text" name="" id="descricao" maxlength="500" required>
+    </div>
+
+    <div>
+      <label for="start-date">data de início</label><br>
+      <input type="date" id="start-date" required>
+    </div>
+
+    
+
+  </fieldset>
+
+  <div class='parte-final'>
+    <div>
+      <button class="submit">Submeter</button>
+    </div>
+
+    <div id='consolidado'>
+      <h2>Consolidado</h2>
+    </div>
+
+    <div>
+      <input class="redefine" type="reset">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
 </body>
 </html>

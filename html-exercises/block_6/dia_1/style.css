@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  margin: 0 250px 0 250px;
+  line-height: 40px;
+  background-color: rgb(24, 8, 68);
+}
+
+.cabecalho {
+  background-color: rgb(221, 224, 224);
+  border-radius: 3px;
+  border: 1px solid rgb(209, 228, 228);
+  margin: 20px auto 20px auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+}
+
+#first-part {
+  background-color: rgb(221, 224, 224);
+  border-radius: 3px;
+  border: 1px solid rgb(209, 228, 228);
+  margin: 20px auto 20px auto;
+  padding: 20px 40px 20px 40px;
+  width: 80%;
+}
+
+
+#second-part {
+  background-color: rgb(221, 224, 224);
+  border-radius: 3px;
+  border: 1px solid rgb(209, 228, 228);
+  margin: 20px auto 20px auto;
+  padding: 20px 40px 20px 40px;
+  width: 80%;
+}
+
+div {
+  margin: 10px 0px 10px 10px;
+}
+
+#resumo {
+  width: 100%;
+  border: 1px solid rgb(209, 213, 228);
+}
+
+.submit, .redefine {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+}
+
+#consolidado {
+  
+}
+
+input[type = 'text'] {
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 25px;
+  border: 1px solid rgb(209, 213, 228);
+}
+
+#start-date {
+  border-radius: 3px;
+  padding: 7px;
+  border: 1px solid rgb(209, 213, 228);
+  font-size: 25px;
+}
+
+input[type = 'radio']{
+  /* height: 10px; */
+}
+
+.parte-final {
+  background-color: rgb(221, 224, 224);
+  border-radius: 3px;
+  border: 1px solid rgb(209, 228, 228);
+  margin: 20px auto 20px auto;
+  padding: 20px 40px 20px 40px;
+  width: 80%;
+}
