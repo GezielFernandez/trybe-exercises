@@ -23,12 +23,18 @@
 
 }
 
-.colunas2 {
+.container {
+  display: flex;
+  justify-content: space-around;
+  background: yellow;
+}
+
+/* .colunas2 {
   width: 48%;
   margin: 1px;
   float: left;
-  background: #999;;
-}
+  background: #999;
+} */
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
   #centro {
