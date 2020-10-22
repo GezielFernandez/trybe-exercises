@@ -1,4 +1,4 @@
-// Note the inclusion of asyn in line 5, and await in line 15. Compare it to the file fetch_examples.js
+// Note the inclusion of "async" in line 5, and "await" in line 15. Compare it to the file fetch_examples.js
 
 const fetch = require('node-fetch');
 
