@@ -1,0 +1,2 @@
+These exercises belong to block 9, day 1, about Asynchronous JavaScript and Callbacks.
+Exercises named "...callback" and "test1" are from the content itself. Exercises named as "...exercise..." belong to the practical part. Please, feel free to clone, to contribute, to suggest, to critic, whatever; as long as this contribute to your learning path.
